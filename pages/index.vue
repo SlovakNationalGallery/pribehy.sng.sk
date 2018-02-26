@@ -52,8 +52,8 @@ export default {
         {
           author: 'Ján Cifra',
           name: 'Národopisné slávnosti (1956)',
-          thumb: 'img/thumbs/SVK.SNG.UP-DK_1426-10@2x.jpg',
-          img: 'img/full/SVK.SNG.UP-DK_1426-10.jpg',
+          thumb: 'img/thumbs/SVK.SNG.up-dk_1426-10@2x.jpg',
+          img: 'img/full/SVK.SNG.up-dk_1426-10.jpg',
           url: 'https://www.webumenia.sk/dielo/SVK:SNG.UP-DK_1426-10',
         },
         {
