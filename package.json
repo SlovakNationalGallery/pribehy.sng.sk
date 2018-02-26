@@ -1,0 +1,22 @@
+{
+  "name": "nuxt.pribehy.sng.sk",
+  "version": "1.0.0",
+  "description": "My rad Nuxt.js project",
+  "author": "Philo van Kemenade",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "bootstrap-vue": "^1.0.2",
+    "nuxt": "^1.0.0",
+    "vue-meta": "^1.4.3"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.1"
+  }
+}
