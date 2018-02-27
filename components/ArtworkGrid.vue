@@ -23,10 +23,7 @@
       ]
     },
     mounted: function () {
-      console.log("MOUNTED");
       $(document).ready(function() {
-        console.log("DOCUMENT READY");
-        console.log($('.magnific-container').length);
         $('.magnific-container').magnificPopup({
           delegate: 'a',
           type: 'image',
