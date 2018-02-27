@@ -20,7 +20,10 @@
       script: [
         { src: 'js/jquery-3.3.1.slim.min.js', body: true },
         { src: 'js/jquery.magnific-popup.min.js', body: true },
-      ]
+      ],
+      link: [
+        { rel: 'stylesheet', href: 'css/magnific-popup.css' },
+      ],
     },
     mounted: function () {
       $(document).ready(function() {

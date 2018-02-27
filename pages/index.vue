@@ -52,28 +52,28 @@ export default {
         {
           author: 'Ján Cifra',
           name: 'Národopisné slávnosti (1956)',
-          thumb: 'img/thumbs/SVK.SNG.up-dk_1426-10@2x.jpg',
+          thumb: 'img/thumbs/SVK.SNG.up-dk_1426-10.jpg',
           img: 'img/full/SVK.SNG.up-dk_1426-10.jpg',
           url: 'https://www.webumenia.sk/dielo/SVK:SNG.UP-DK_1426-10',
         },
         {
           author: 'Štefan Bednár',
           name: 'Podhradské nábrežie (1946-1947)',
-          thumb: 'img/thumbs/SVK.SNG.O_12@2x.jpg',
+          thumb: 'img/thumbs/SVK.SNG.O_12.jpg',
           img: 'img/full/SVK.SNG.O_12.jpg',
           url: 'https://www.webumenia.sk/dielo/SVK:SNG.O_12',
         },
         {
           author: 'Andrej Doboš',
           name: 'Partizánka Maťuchová (1954)',
-          thumb: 'img/thumbs/SVK.SNG.O_1195@2x.jpg',
+          thumb: 'img/thumbs/SVK.SNG.O_1195.jpg',
           img: 'img/full/SVK.SNG.O_1195.jpg',
           url: 'https://www.webumenia.sk/dielo/SVK:SNG.O_1195',
         },
         {
           author: 'Eduard Pavlačka',
           name: 'Generácia (1965)',
-          thumb: 'img/thumbs/SVK.SNG.UP-DK_1731@2x.jpg',
+          thumb: 'img/thumbs/SVK.SNG.UP-DK_1731.jpg',
           img: 'img/full/SVK.SNG.UP-DK_1731.jpg',
           url: 'https://www.webumenia.sk/dielo/SVK:SNG.UP-DK_1731',
         }
