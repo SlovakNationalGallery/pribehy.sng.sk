@@ -1,18 +1,13 @@
 const pkg = require('./package')
 
-// only add `router.base = '/<repository-name>/'` if `DEPLOY_ENV` is `GH_PAGES`
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-  router: {
-    base: '/pribehy.sng.sk/'
-  }
-} : {}
-
-
 module.exports = {
   mode: 'universal',
 
+  /*
+  ** Router 
+  */
   router: {
-    base: '/pribehy.sng.sk/'
+    base: process.env.DEPLOY_ENV === 'GH_PAGES' ? '/pribehy.sng.sk/' : '/'
   },
 
   /*
