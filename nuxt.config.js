@@ -11,9 +11,7 @@ const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
 module.exports = {
   mode: 'universal',
 
-  router: {
-    base: '/pribehy.sng.sk/'
-  },
+  routerBase,
 
   /*
   ** Headers of the page
