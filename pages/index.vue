@@ -1,58 +1,72 @@
 <template>
-  <section class="container">
+  <div>
+    <section class="container">
+      
+      <div class="row">
+        <div class="col">
+          <h1>Príbehy umenia</h1>
+          <h2>Výzva pre verejnosť</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <p>
+            <a href="http://www.sng.sk" target="_blank">Slovenská národná galéria</a> pripravuje sériu dokumentov o výtvarných dielach zo slovenských zbierkotvorných galérií. Chceme ukázať, že umelecké diela sú nielen fyzickými artefaktmi, ale aj odrazom doby a kontextu, v ktorom vznikli. Okrem výpovedí autorov a vlastníkov diel nás zaujímajú aj autentické a doteraz nezverejnené príbehy ľudí. Ak poznáte okolnosti vzniku diela, prípadne miesta a ľudí zobrazených na diele, podeľte sa s nami o svoj príbeh - tie najzaujímavejšie sa stanú súčasťou dokumentu, ďalšie budeme priebežne zverejňovať ako články na <a href="http://www.webumenia.sk" target="_blank">Webe umenia</a>.
+          </p>
+          <p>
+            Môžete sa inšpirovať napríklad zbierkou <a href="https://www.webumenia.sk/katalog?work_type=fotografia" target="_blank">fotografií</a> alebo <a href="https://www.webumenia.sk/katalog?work_type=maliarstvo" target="_blank">malieb</a>.
+          </p>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="//www.youtube.com/embed/QW6k75u0oWA?autohide=1&showinfo=0&rel=0&theme=light&vq=hd720"  allowfullscreen></iframe>
+          </div>
+        </div>
+
+      </div>
+
+      <hr/>
+
+      <div class="row">
+        <div class="col-12">
+          <h2>Diela vo videu</h2>
+
+          <div class="text-center">
+            <ArtworkGrid :artworks="artworks" />
+            <Button 
+              :text="'ďaľších 63 845 diel na webe umenia'" 
+              :url="'https://www.webumenia.sk/katalog?gallery=Slovensk%C3%A1+n%C3%A1rodn%C3%A1+gal%C3%A9ria%2C+SNG'"
+            />
+          </div>
+
+        </div>
+      </div>  
+    </section>
     
-    <div class="row">
-      <div class="col">
-        <h1>Príbehy umenia</h1>
-        <h2>Výzva pre verejnosť</h2>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-12 col-md-6">
-        <p>
-          <a href="http://www.sng.sk" target="_blank">Slovenská národná galéria</a> pripravuje sériu dokumentov o výtvarných dielach zo slovenských zbierkotvorných galérií. Chceme ukázať, že umelecké diela sú nielen fyzickými artefaktmi, ale aj odrazom doby a kontextu, v ktorom vznikli. Okrem výpovedí autorov a vlastníkov diel nás zaujímajú aj autentické a doteraz nezverejnené príbehy ľudí. Ak poznáte okolnosti vzniku diela, prípadne miesta a ľudí zobrazených na diele, podeľte sa s nami o svoj príbeh - tie najzaujímavejšie sa stanú súčasťou dokumentu, ďalšie budeme priebežne zverejňovať ako články na <a href="http://www.webumenia.sk" target="_blank">Webe umenia</a>.
-        </p>
-        <p>
-          Môžete sa inšpirovať napríklad zbierkou <a href="http://webumenia.sk/web/guest/photo/-/staticresults?orderBy=RELEVANCE&page=1&items=28&query=&layout=gridLayout&images=true&searchFor=data" target="blank">fotografií</a> alebo <a href="http://webumenia.sk/web/guest/painting/-/staticresults?orderBy=RELEVANCE&page=1&items=28&query=&layout=gridLayout&images=true&searchFor=data" target="blank">malieb</a>.
-        </p>
-      </div>
-      <div class="col-12 col-md-6">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="//www.youtube.com/embed/QW6k75u0oWA?autohide=1&showinfo=0&rel=0&theme=light&vq=hd720"  allowfullscreen></iframe>
-        </div>
-      </div>
-
-    </div>
-
-    <hr/>
-
-    <div class="row">
-      <div class="col-12">
-        <h2>Diela vo videu</h2>
-
-        <div class="text-center">
-          <ArtworkGrid :artworks="artworks" />
-          <Button 
-            :text="'ďaľších 63 845 diel na webe umenia'" 
-            :url="'https://www.webumenia.sk/katalog?gallery=Slovensk%C3%A1+n%C3%A1rodn%C3%A1+gal%C3%A9ria%2C+SNG'"
-          />
-        </div>
-
-      </div>
-    </div>  
-  </section>
+    <Footer/>
+  </div>
+    
 
 </template>
+
+<style scoped>
+  section {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+</style>
 
 <script>
 import ArtworkGrid from '@/components/ArtworkGrid'
 import Button from '@/components/Button'
+import Footer from '@/components/Footer'
 
 export default {
   components: {
     ArtworkGrid,
     Button,
+    Footer,
   },
   data: function () {
     return {
