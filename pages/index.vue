@@ -31,7 +31,13 @@
       <div class="col-12">
         <h2>Diela vo videu</h2>
 
-        <ArtworkGrid :artworks="artworks" />
+        <div class="text-center">
+          <ArtworkGrid :artworks="artworks" />
+          <Button 
+            :text="'ďaľších 63 845 diel na webe umenia'" 
+            :url="'https://www.webumenia.sk/katalog?gallery=Slovensk%C3%A1+n%C3%A1rodn%C3%A1+gal%C3%A9ria%2C+SNG'"
+          />
+        </div>
 
       </div>
     </div>  
@@ -41,10 +47,12 @@
 
 <script>
 import ArtworkGrid from '@/components/ArtworkGrid'
+import Button from '@/components/Button'
 
 export default {
   components: {
-    ArtworkGrid
+    ArtworkGrid,
+    Button,
   },
   data: function () {
     return {

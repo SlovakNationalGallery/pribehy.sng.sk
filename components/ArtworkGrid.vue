@@ -61,7 +61,7 @@
 <style scoped>
 /* Caption Style based on https://tympanus.net/codrops/2013/06/18/caption-hover-effects/ */
 .grid {
-  padding: 20px 20px 100px 20px;
+  padding: 0 0 40px 0;
   max-width: 1300px;
   margin: 0 auto;
   list-style: none;
