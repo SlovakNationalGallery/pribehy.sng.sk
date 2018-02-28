@@ -72,7 +72,7 @@
   display: inline-block;
   width: 100%;
   margin: 0;
-  padding: 20px;
+  padding: 15px;
   text-align: left;
   position: relative;
 }
@@ -169,19 +169,15 @@
   right: 20px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 576px) {
   .grid li {
     width: 50%;
   }
 }
 
 @media screen and (min-width: 992px) {
-  .grid {
-    padding: 10px 10px 100px 10px;
-  }
   .grid li {
     width: 25%;
-    padding: 10px;
   }
 }
 
