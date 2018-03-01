@@ -1,0 +1,13 @@
+{
+  "home": {
+    "title": "Príbehy umenia",
+    "subTitle": "Výzva pre verejnosť",
+    "p1": "<a href='http://www.sng.sk' target='_blank'>Slovenská národná galéria</a> pripravuje sériu dokumentov o výtvarných dielach zo slovenských zbierkotvorných galérií. Chceme ukázať, že umelecké diela sú nielen fyzickými artefaktmi, ale aj odrazom doby a kontextu, v ktorom vznikli. Okrem výpovedí autorov a vlastníkov diel nás zaujímajú aj autentické a doteraz nezverejnené príbehy ľudí. Ak poznáte okolnosti vzniku diela, prípadne miesta a ľudí zobrazených na diele, podeľte sa s nami o svoj príbeh - tie najzaujímavejšie sa stanú súčasťou dokumentu, ďalšie budeme priebežne zverejňovať ako články na <a href='http://www.webumenia.sk' target='_blank'>Webe umenia</a>.",
+    "p2": "Môžete sa inšpirovať napríklad zbierkou <a href='https://www.webumenia.sk/katalog?work_type=fotografia' target='_blank'>fotografií</a> alebo <a href='https://www.webumenia.sk/katalog?work_type=maliarstvo' target='_blank'>malieb</a>.",
+    "artworksTitle": "Diela vo videu",
+    "artworksButtonText": "ďaľších 63 845 diel na webe umenia"
+  },
+  "TheFooter": {
+    "madeBy": "Vyrobil a spravuje"
+  }
+}

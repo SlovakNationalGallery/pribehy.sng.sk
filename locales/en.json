@@ -1,0 +1,13 @@
+{
+  "home": {
+    "title": "Stories of Art",
+    "subTitle": "Calling all art lovers",
+    "p1": "<a href='http://www.sng.sk/en' target='_blank'>The Slovak National Gallery</a> is creating a documentary series about artworks from the gallery's collection. We want to show that works of art are not only physical artifacts, but also reflections of the time and context in which they were created. In addition to the testimony of authors and publishers, we are also interested in authentic and unpublished stories of people. If you know the circumstances of a work, or the places and people depicted, please share your story with us. The most interesting stories will become part of the documentary and will be published as articles on <a href='https://www.webumenia.sk/en' target='_blank'>Web umenia</a>.",
+    "p2": "You can get inspired by <a href='https://www.webumenia.sk/en/katalog?work_type=fotografia' target='_blank'>photography</a> or <a href='https://www.webumenia.sk/katalog?work_type=maliarstvo' target='_blank'>paintings</a> from our collection.",
+    "artworksTitle": "Artworks in the video",
+    "artworksButtonText": "see 63 845 more artworks on Web umenia"
+  },
+  "TheFooter": {
+    "madeBy": "Made by"
+  }
+}

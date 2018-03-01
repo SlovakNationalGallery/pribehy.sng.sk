@@ -7,7 +7,8 @@ module.exports = {
   ** Router 
   */
   router: {
-    base: process.env.DEPLOY_ENV === 'GH_PAGES' ? '/pribehy.sng.sk/' : '/'
+    base: process.env.DEPLOY_ENV === 'GH_PAGES' ? '/pribehy.sng.sk/' : '/',
+    middleware: 'i18n',
   },
 
   /*
@@ -50,6 +51,7 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '~/plugins/i18n.js',
   ],
 
   /*
@@ -70,6 +72,7 @@ module.exports = {
     */
     extend(config, ctx) {
       
-    }
+    },
+    vendor: ['vue-i18n'],
   }
 }
