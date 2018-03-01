@@ -1,53 +1,37 @@
 <template>
-  <div>
-    <section class="container">
-      
-      <div class="row">
-        <div class="col">
-          <h1>{{ $t('home.title') }}</h1>
-          <h2>{{ $t('home.subTitle') }}</h2>
+  <section class="container my-4">
+    <div class="row">
+      <div class="col">
+        <h1>{{ $t('home.title') }}</h1>
+        <h2>{{ $t('home.subTitle') }}</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <p v-html="$t('home.p1')"></p>
+        <p v-html="$t('home.p2')"></p>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="//www.youtube.com/embed/QW6k75u0oWA?autohide=1&showinfo=0&rel=0&theme=light&vq=hd720"  allowfullscreen></iframe>
         </div>
       </div>
-
-      <div class="row">
-        <div class="col-12 col-md-6">
-          <p v-html="$t('home.p1')"></p>
-          <p v-html="$t('home.p2')"></p>
+    </div>
+    <hr/>
+    <div class="row">
+      <div class="col-12">
+        <h2>{{ $t('home.artworksTitle')}}</h2>
+        <div class="text-center">
+          <ArtworkGrid :artworks="artworks" />
+          <BaseButton 
+            :text="$t('home.artworksButtonText')" 
+            :url="'https://www.webumenia.sk/katalog?gallery=Slovensk%C3%A1+n%C3%A1rodn%C3%A1+gal%C3%A9ria%2C+SNG'"
+          />
         </div>
-        <div class="col-12 col-md-6">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="//www.youtube.com/embed/QW6k75u0oWA?autohide=1&showinfo=0&rel=0&theme=light&vq=hd720"  allowfullscreen></iframe>
-          </div>
-        </div>
-
       </div>
-
-      <hr/>
-
-      <div class="row">
-        <div class="col-12">
-          <h2>{{ $t('home.artworksTitle')}}</h2>
-
-          <div class="text-center">
-            <ArtworkGrid :artworks="artworks" />
-            <BaseButton 
-              :text="$t('home.artworksButtonText')" 
-              :url="'https://www.webumenia.sk/katalog?gallery=Slovensk%C3%A1+n%C3%A1rodn%C3%A1+gal%C3%A9ria%2C+SNG'"
-            />
-          </div>
-
-        </div>
-      </div>  
-    </section>
-  </div>
+    </div>  
+  </section>
 </template>
-
-<style scoped>
-  section {
-    margin-top: 60px;
-    margin-bottom: 60px;
-  }
-</style>
 
 <script>
 import ArtworkGrid from '@/components/ArtworkGrid'

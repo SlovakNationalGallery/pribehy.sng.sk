@@ -1,5 +1,5 @@
 <template>
-  <ul class="grid magnific-container cs-style-3">
+  <ul class="grid magnific-container cs-style-3 p-0 pb-3">
     <a v-for="artwork in artworks" :href="artwork.img" :title="artwork.name" :data-source="artwork.url">
       <li>
         <figure>
@@ -61,7 +61,6 @@
 <style scoped>
 /* Caption Style based on https://tympanus.net/codrops/2013/06/18/caption-hover-effects/ */
 .grid {
-  padding: 0 0 40px 0;
   max-width: 1300px;
   margin: 0 auto;
   list-style: none;
@@ -72,7 +71,7 @@
   display: inline-block;
   width: 100%;
   margin: 0;
-  padding: 15px;
+  padding: 1rem;
   text-align: left;
   position: relative;
 }

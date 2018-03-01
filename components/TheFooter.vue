@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <footer class="mt-4">
     <div class="container">
       <div class="row">
         <div class="col-6">
@@ -15,7 +15,6 @@
           <p class="text-muted text-right">{{$t('TheFooter.madeBy')}} <a href="http://lab.sng.sk" target="_blank" class="sans">lab.SNG</a></p>
         </div>
       </div>
-
     </div>
   </footer>
 </template>
