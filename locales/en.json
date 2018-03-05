@@ -7,6 +7,9 @@
     "artworksTitle": "Artworks in the video",
     "artworksButtonText": "see 63 845 more artworks on Web umenia"
   },
+  "TheHeader": {
+    "sngURL": "https://www.sng.sk/en"
+  },
   "TheFooter": {
     "madeBy": "Made by"
   }

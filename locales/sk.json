@@ -7,6 +7,9 @@
     "artworksTitle": "Diela vo videu",
     "artworksButtonText": "ďaľších 63 845 diel na webe umenia"
   },
+  "TheHeader": {
+    "sngURL": "https://www.sng.sk/"
+  },
   "TheFooter": {
     "madeBy": "Vyrobil a spravuje"
   }
