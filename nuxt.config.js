@@ -67,8 +67,12 @@ module.exports = {
   ** Generate configuration
   */
   generate: {
-    minify: false
+    minify: false,
+    routes: [
+      '/en'
+    ],
   },
+
 
   /*
   ** Build configuration
