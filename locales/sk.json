@@ -1,9 +1,12 @@
 {
   "home": {
     "title": "Príbehy umenia",
-    "subTitle": "Výzva pre verejnosť",
-    "p1": "<a href='http://www.sng.sk' target='_blank'>Slovenská národná galéria</a> pripravuje sériu dokumentov o výtvarných dielach zo slovenských zbierkotvorných galérií. Chceme ukázať, že umelecké diela sú nielen fyzickými artefaktmi, ale aj odrazom doby a kontextu, v ktorom vznikli. Okrem výpovedí autorov a vlastníkov diel nás zaujímajú aj autentické a doteraz nezverejnené príbehy ľudí. Ak poznáte okolnosti vzniku diela, prípadne miesta a ľudí zobrazených na diele, podeľte sa s nami o svoj príbeh - tie najzaujímavejšie sa stanú súčasťou dokumentu, ďalšie budeme priebežne zverejňovať ako články na <a href='http://www.webumenia.sk' target='_blank'>Webe umenia</a>.",
-    "p2": "Môžete sa inšpirovať napríklad zbierkou <a href='https://www.webumenia.sk/katalog?work_type=fotografia' target='_blank'>fotografií</a> alebo <a href='https://www.webumenia.sk/katalog?work_type=maliarstvo' target='_blank'>malieb</a>.",
+    "p1": "<p><a href='http://www.sng.sk' target='_blank'>Slovenská národná galéria</a> vytvorila v spolupráci so štúdiom Moiré sériu dokumentov o výtvarných dielach zo slovenských zbierkotvorných galérií. Ich cieľom bolo ukázať, že umelecké diela sú nielen fyzickými artefaktmi, ale aj odrazom doby a kontextu, v ktorom vznikli. Okrem výpovedí autorov a vlastníkov diel sa videá opierali aj o autentické a doteraz nezverejnené príbehy ľudí.</p>",
+    "p2": "<p>Ak aj vy poznáte okolnosti vzniku niektorého výtvarného diela na <a href='https://www.webumenia.sk/' target='_blank'>Webe umenia</a>, prípadne zobrazené miesta a ľudí, <a href='mailto:lab@sng.sk'>podeľte sa s nami o svoj príbeh</a> - tie najzaujímavejšie budeme priebežne zverejňovať na Webe umenia. Môžete sa inšpirovať napríklad zbierkou <a href='https://www.webumenia.sk/katalog?work_type=fotografia' target='_blank'>fotografií</a> alebo <a href='https://www.webumenia.sk/katalog?work_type=maliarstvo' target='_blank'>malieb</a>.</p>",
+    "p3": "<p>Jednotlivé diely dokumentárnej série môžete vidieť tu:</p>",
+    "project1": "<h5>Slavín</h5><ul><li><a href='https://www.webumenia.sk/clanok/pribehy-umenia-slavin' target='_blank'>Video a článok</a></li><li><a href='https://www.webumenia.sk/clanok/slavin-hypervideo'>Hypervideo</a></li><li><a href='https://www.webumenia.sk/kolekcia/24'>Kolekcia diel</a></li></ul>",
+    "project2": "<h5>Podhradie</h5><ul><li><a href='https://www.webumenia.sk/clanok/pribehy-umenia-podhradie' target='_blank'>Video a článok</a></li><li><a href='https://www.webumenia.sk/kolekcia/68'>Kolekcia diel</a></li></ul>",
+    "project3": "<h5>Bojovníci a bojovníčky SNP</h5><ul><li><a href='https://www.webumenia.sk/clanok/bojovnici-a-bojovnicky-snp' target='_blank'>Video a článok</a></li><li><a href='https://www.webumenia.sk/kolekcia/78'>Kolekcia diel</a></li></ul>",
     "artworksTitle": "Diela vo videu",
     "artworksButtonText": "ďaľších 63 845 diel na webe umenia"
   },

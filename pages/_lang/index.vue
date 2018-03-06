@@ -3,19 +3,24 @@
     <div class="row">
       <div class="col">
         <h1>{{ $t('home.title') }}</h1>
-        <h2>{{ $t('home.subTitle') }}</h2>
       </div>
     </div>
     <div class="row">
       <div class="col-12 col-md-6">
-        <p v-html="$t('home.p1')"></p>
-        <p v-html="$t('home.p2')"></p>
+        <div v-html="$t('home.p1')"></div>
+        <div v-html="$t('home.p2')"></div>
       </div>
       <div class="col-12 col-md-6">
-        <div class="embed-responsive embed-responsive-16by9">
+        <p class="embed-responsive embed-responsive-16by9">
           <iframe class="embed-responsive-item" src="//www.youtube.com/embed/QW6k75u0oWA?autohide=1&showinfo=0&rel=0&theme=light&vq=hd720"  allowfullscreen></iframe>
-        </div>
+        </p>
       </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12" v-html="$t('home.p3')"></div>
+      <div class="project col-sm-4" v-html="$t('home.project1')"></div>
+      <div class="project col-sm-4" v-html="$t('home.project2')"></div>
+      <div class="project col-sm-4" v-html="$t('home.project3')"></div>
     </div>
     <hr/>
     <div class="row">
@@ -32,6 +37,13 @@
     </div>  
   </section>
 </template>
+
+<style>
+.project ul {
+  padding-left: 0;
+  list-style: none;
+}
+</style>
 
 <script>
 import ArtworkGrid from '@/components/ArtworkGrid'
