@@ -54,7 +54,7 @@ export default {
     ArtworkGrid,
     BaseButton,
   },
-  data: function () {
+  data () {
     return {
       artworks: [
         {
@@ -86,6 +86,11 @@ export default {
           url: 'https://www.webumenia.sk/dielo/SVK:SNG.UP-DK_1731',
         }
       ]
+    }
+  },
+  head () {
+    return {
+      title: 'Príbehy umenia',
     }
   }
 }
