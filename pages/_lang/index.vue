@@ -87,11 +87,6 @@ export default {
         }
       ]
     }
-  },
-  head () {
-    return {
-      title: 'Príbehy umenia',
-    }
   }
 }
 </script>
