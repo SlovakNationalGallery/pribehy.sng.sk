@@ -10,7 +10,7 @@
           </figcaption>
         </figure>
       </li>
-    </a>          
+    </a>
   </ul>
 </template>
 

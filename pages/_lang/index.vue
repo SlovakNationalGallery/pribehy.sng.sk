@@ -29,12 +29,12 @@
         <div class="text-center">
           <ArtworkGrid :artworks="artworks" />
           <BaseButton 
-            :text="$t('home.artworksButtonText')" 
+            :text="$t('home.artworksButtonText')"
             :url="'https://www.webumenia.sk/katalog?gallery=Slovensk%C3%A1+n%C3%A1rodn%C3%A1+gal%C3%A9ria%2C+SNG'"
           />
         </div>
       </div>
-    </div>  
+    </div>
   </section>
 </template>
 
